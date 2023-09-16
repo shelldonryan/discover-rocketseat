@@ -45,17 +45,14 @@
 ## Anotações
 
 <div align="center"><br>
-  📙 <a href="/Starter-Terminal/terminal.md"><strong>Terminal</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📙 <a href="/Starter-html/html.md"><strong>HTML</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📘 <a href="/Starter-CSS/css.md"><strong>CSS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📒 <a href="/Starter-Js/javascript.md"><strong>JavaScript</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  💻 <a href="/Starter-Terminal/terminal.md"><strong>Terminal</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
   🕓 <a href="/Starter-Git/git.md"><strong>Git</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  💻 <a href="/Starter-NodeJS/node.md"><strong>NodeJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📄 <a href="/Starter-NodeJS/node_ejs.md"><strong>EJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📄 <a href="/Starter-React/react.md"><strong>React</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📄 <a href="/Starter-Typescript/typescript.md"><strong>TypeScript</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📄 <a href="/Starter-HTTP/http.md"><strong>HTTP</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📄 <a href="/Starter-API/api.md"><strong>API</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  🖥️ <a href="/Starter-NodeJS/node.md"><strong>NodeJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  ⌨️ <a href="/Starter-NodeJS/node_ejs.md"><strong>EJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  🏞️ <a href="/Starter-React/react.md"><strong>React</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  ⚙️ <a href="/Starter-Typescript/typescript.md"><strong>TypeScript</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  🔑 <a href="/Starter-HTTP/http.md"><strong>HTTP</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  🔓 <a href="/Starter-API/api.md"><strong>API</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
   💾 <a href="/Starter-SQL/sql.md"><strong>SQL</strong></a>
 </div>
 
@@ -79,6 +76,7 @@
 1. ✔️ O Guia Estelar de JavaScript
 1. ✔️ Guia Estelar de Git
 1. ✔️ Guia Estelar de Github
+1. ✔️ Github para times
 
 #
 
@@ -88,6 +86,10 @@
 1. ✔️ (HTML) HTML que faz sentido, para todos
 1. ✔️ (HTML) Posso ver e ouvir o HTML
 1. ✔️ (JS) Pilotando com a DOM
+1. ✔️ (JS) Javascript Assíncrono e Promises
+1. ✔️ (JS) Trabalhando com APIs
+1. ✔️ (JS) Fundamentos de ReactJS
+1. ✔️ (JS) Fundamentos de Typescript
 1. ✔️ (CSS) App bonito, até nos textos
 1. ✔️ (CSS) Nem tudo são pixels
 1. ✔️ (CSS) Nem só de classes ou ID's
@@ -95,6 +97,7 @@
 1. ✔️ (CSS) Agora sim, cores
 1. ✔️ (CSS) Posicionando foguetes
 1. ✔️ (CSS) Alinhando os planetas
+1. ✔️ (CSS) Transition e Animation
 
 #
 
@@ -103,6 +106,7 @@
 1. ✔️ NodeJS: O Motor da Nave
 1. ✔️ NodeJS + EJS: HTML Inteligente
 1. ✔️ SQL, a caixa preta da nossa nave
+1. ✔️ SQL Avançado
 
 #
 
