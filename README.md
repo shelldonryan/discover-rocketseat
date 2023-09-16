@@ -45,13 +45,18 @@
 ## Anotações
 
 <div align="center"><br>
-  📙 <a href="/HTML/html.md"><strong>HTML</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📘 <a href="/CSS/css.md"><strong>CSS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📒 <a href="/JavaScript/javascript.md"><strong>JavaScript</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  🕓 <a href="/Git/git.md"><strong>Git</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  💻 <a href="/node/node.md"><strong>NodeJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  📄 <a href="/node_EJS/EJS.md"><strong>EJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
-  💾 <a href="/SQL/sql.md"><strong>SQL</strong></a>
+  📙 <a href="/Starter-Terminal/terminal.md"><strong>Terminal</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📙 <a href="/Starter-html/html.md"><strong>HTML</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📘 <a href="/Starter-CSS/css.md"><strong>CSS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📒 <a href="/Starter-Js/javascript.md"><strong>JavaScript</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  🕓 <a href="/Starter-Git/git.md"><strong>Git</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  💻 <a href="/Starter-NodeJS/node.md"><strong>NodeJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📄 <a href="/Starter-NodeJS/node_ejs.md"><strong>EJS</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📄 <a href="/Starter-React/react.md"><strong>React</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📄 <a href="/Starter-Typescript/typescript.md"><strong>TypeScript</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📄 <a href="/Starter-HTTP/http.md"><strong>HTTP</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  📄 <a href="/Starter-API/api.md"><strong>API</strong></a>&nbsp;&nbsp; | &nbsp;&nbsp;
+  💾 <a href="/Starter-SQL/sql.md"><strong>SQL</strong></a>
 </div>
 
 ## Módulos
