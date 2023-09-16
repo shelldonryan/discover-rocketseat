@@ -1,0 +1,15 @@
+div {
+    color: blue;
+}
+
+h1 {
+    color: #343434aa;
+}
+
+h2{
+    color: rgba(255, 200, 30, 0.2);
+}
+
+h3{
+    color: hsla(20, 100%, 50%, 0.6);
+}

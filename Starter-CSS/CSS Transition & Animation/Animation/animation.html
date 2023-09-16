@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animation name & duration</title>
+
+    <style>
+        .ball {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: rgb(145, 27, 27);
+            position: relative;
+
+            animation-name: example-two;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-iteration-count: 5;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes example-one {
+            from {
+                background-color: rgb(81, 80, 80);
+            }
+
+            to {
+                background-color: rgb(41, 10, 10);
+            }
+        }
+
+        @keyframes example-two {
+            0% {
+                background-color: rgb(85, 10, 10);
+                top: 0;
+                left: 0;
+            }
+            25% {
+                background-color: rgb(194, 17, 17);
+                top: 0;
+                left: 400px;
+            }
+            50% {
+                background-color: rgb(255, 140, 0);
+                top: 400px;
+                left: 400px;
+            }
+            75% {
+                background-color: rgb(190, 65, 11);
+                top: 400px;
+                left: 0;
+            }
+            100% {
+                background-color: rgb(163, 15, 15);
+                top: 0;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ball"></div>
+</body>
+
+</html>

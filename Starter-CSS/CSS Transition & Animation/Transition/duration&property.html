@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>duration&property</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box-blue {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+
+        .box-blue {
+            background-color: blue;
+            transition-property: background-color;
+            transition-duration: 1s;
+        }
+
+        .box-blue:hover {
+            background-color: aqua;
+            transition-property: background-color;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-blue"></div>
+</body>
+
+</html>

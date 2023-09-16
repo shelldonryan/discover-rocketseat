@@ -1,0 +1,129 @@
+<p>Usamos <abbr title="Hyper Text Markup">HTML</abbr> para estruturar nossos documentos da web.</p>
+
+<address>
+    <p>
+        <code> Shelldon Ryan</code>  <br>
+        <strong>Sousa, Paraíba</strong>
+    </p>
+
+    <p>        <code> Myllena Fernandes</code> <br>
+        <strong>Vieirópolis, Paraíba</strong></p>
+</address>
+
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>É um hiper texto com possibilidades...</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação do texto</dd>
+
+    <dt>Languague</dt>
+    <dd>Linguagem com sua semântica e sintaxe....</dd>
+</dl>
+
+<!--
+<code></code> — muda a cor do conteúdo para representar código.
+
+<pre></pre> — tag para criar um bloco de código, mantém os espaços em branco.
+-->
+
+<blockquote>
+    <pre>
+        <code>
+            &lt;p>&lt;/p>
+            &lt;q>&lt;/q>
+        </code>
+    </pre>
+</blockquote>
+
+<!--
+<div></div> — tag usada para agrupar conteúdo.
+<span></span> — tag usada para agrupar texto, 
+em uma ideia mais de linha.
+-->
+
+<div class="cart">
+    <span>Camiseta</span>
+    <span>R$ 99,00</span>
+</div>
+
+<!--
+    Hyperlinks - elemento âncora: <a>
+        +anatomia
+        +atributos:
+            -globais (title, id ,class,...)
+            -href
+                - para onde iremos clicar
+                     -url completa
+                     -fragmento
+                     -e-mail
+                     -telefone
+                     - e outros
+            -Downloads
+            -Target
+                -_self (padrão)
+                -_blank
+
+        
+-->
+
+<a href="" download="" target="" ></a>
+
+<!--
+    Qualquer coisa pode ser colocado, até mesmo outras tags, e mais de uma.
+-->
+
+<a href="http://google.com" title="Ir para google">
+    <h1>Google</h1>
+    <p>Claro que posso</p>
+    <img src="https://source.unsplash.com/random" alt="">
+</a>
+
+<!--
+    -Uniform Resource locator
+        -Sequência de texto que define onde algo está localizado na web
+    -URL usam caminhos para encontrar arquivos
+
+    -Onde, no explorador de arquivos, um recurso está localizado
+-->
+<a href="fragmento(hyperlink).html">fragmentos</a>
+
+<!--
+    Como navegar pelos caminhoa
+
+    -mesmo diretório
+    -Entrando em diretórios
+    -saindo de diretórios 
+    -diretório raíz (root ou pai)
+
+    <a href="hyperlinks.html">arquivo na pasta anterior</a>
+<br>
+<a href="./urls-caminhos.html">arquivo no diretório raiz</a>
+<br>
+<a href="urls-caminhos.html">arquivo na mesma pasta</a>
+<br>
+<a href="outros/conteudo-a-element.html">arquivo na pasta outros, que está na pasta anterior</a>
+-->
+
+<a href="../fragmento(hyperlink).html">arquivo na pasta anterior</a>
+<br>
+<a href="./index.html">arquivo no diretório raiz</a>
+<br>
+<a href="index.html">arquivo na mesma pasta</a>
+<br>
+<a href="outros/biografia primo rico.html">arquivo na pasta outros, que está na pasta anterior</a>
+
+<!--
+    URLs Absolutos versus relativos
+    
+    - Absolutos
+        - inclui protocolo e nome de domínio
+            http://www.rocketseat.com.br/projeto/index.html
+        - sempre apontará para o mesmo local, pois é absoluto
+
+    - Relativos
+        - relativo à página aberta
+        - apontará para lugares diferentes
+-->
+

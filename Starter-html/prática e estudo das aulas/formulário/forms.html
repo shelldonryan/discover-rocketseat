@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fORMULÁRIO</title>
+</head>
+<body>
+    <form action="" method="post"></form>
+
+<!--
+    <fieldset>
+-->
+
+<form action="" id="meu-form">
+    <fieldset>
+        <legend>Contato</legend>
+
+        <label> 
+            Número:
+            <input type="text">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Nome</legend>        
+        <label for="name">nome completo:</label>
+        <input id="name" type="text" value="">
+        <button type="reset">limpar</button>
+    </fieldset>
+        
+</form>
+<form>
+<button type="submit" form="meu-form">Enviar</button>
+<br>
+
+
+<form>
+<input type="text" list="fruitsdata" placeholder="Selecione uma fruta">
+
+<datalist id="fruitsdata">
+    <option>maçã</option>
+    <option>bananas</option>
+    <option>manga</option>
+    <option>laranja</option>
+    <option>cereja</option>
+</datalist>
+</form>
+
+
+<br>
+
+<form action="">
+    <input type="email"
+        value="@rocketseat.com.br" required
+        multiple
+        minlength="8"
+        size="20"
+        pattern=".+@rocketseat.com.br"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<br>
+
+<form action="">
+    <input type="password" 
+        minlength="4" maxlength="8"
+        required
+        size="8" 
+        pattern="[0-9a-fA-F]{4,8}"
+        inputmode="numeric"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<br>
+
+<form action="">
+    <input type="url"
+        placeholder="digite uma url" required
+        minlength="8"
+        size="40"
+        pattern=".*\.com\.br.*"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<br>
+
+<form action="" method="post" enctype="multipart/form-data">
+    
+<input type="file" 
+accept=".pdf, image/*"
+multiple
+>
+
+</form>
+
+<input type="color"
+    value="#ff0022"
+    list="colorsdata"
+>
+
+<datalist id="colorsdata">
+    <option>#141544</option>
+    <option>#003327</option>
+</datalist>
+
+<br>
+
+<label for="subscribe">Receber notificações</label>
+<input type="checkbox" id="subscribe" name="subscribe"
+    value="subscribed"
+    checked
+>
+
+<fieldset>
+    <legend>Bora tomar um café??</legend>
+    <label for="yep"> Sim, vamos</label>
+    <input type="radio" name="coffe" id="yep" value="yes">
+    <label for="nono"> Não, não estou a fim</label>
+    <input checked type="radio" name="coffe" id="nono" value="no">
+
+</fieldset>
+<br>
+<label for="message">Crítica</label>
+<textarea id="message" name="message" rows="4" cols="40" maxlength="100" wrap="soft" minlength="2"></textarea>
+
+<br>
+
+<label for="carselect">Qual seu modelo?</label>
+<select name="carmodel" id="carselect">
+    <option value="">Selecione o modelo desejado</option>
+    <option value="volkswagem">Golf</option>
+    <option value="chevrolet">S10</option>
+</select>
+
+<select name="pets" multiple size="4">
+    <optgroup label="4- legged pets">
+            <option value="dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Bird">Bird</option>
+    </optgroup>
+</select>
+
+<form action="">
+    <input type="search" name="searchbox" placeholder="Digite seu termo de busca"
+        size="30" aria-label="pesquisa" pattern="[a-z A-Z 0-9]">
+    <button>pesquisar</button>
+</form>
+
+<input type="number" min="0" max="100" step="1">
+<input type="range" min="0" max="1000" value="500" step="100">
+
+</body>
+</html>
+

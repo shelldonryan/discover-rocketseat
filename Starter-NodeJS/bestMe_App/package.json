@@ -1,0 +1,12 @@
+{
+  "name": "bestme_app",
+  "version": "1.0.0",
+  "description": "App com perguntas para fazermos diariamente.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node.exe index.js"
+  },
+  "keywords": [],
+  "author": "Shelldon Ryan",
+  "license": "ISC"
+}

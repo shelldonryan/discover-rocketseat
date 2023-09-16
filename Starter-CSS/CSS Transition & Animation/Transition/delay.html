@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transition Delay</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box-red, .box-green, .box-blue, .box-yellow {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+
+        .box-red {
+            background-color: brown;
+            transition: background-color 2s;
+        }
+
+        .box-red:hover {
+            background-color: blanchedalmond;
+            transition-property: background-color;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s;
+        }      
+
+        .box-green {
+            background-color: greenyellow;
+            transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+        }
+
+        .box-green:hover {
+            transition: all 2s linear 0.5s;
+            background-color: rgba(41, 215, 163, 0.3);
+            width: 40px; 
+            height: 40px;
+            border-radius: 8px;
+        }
+              
+        .box-blue {
+            background-color: rgb(50, 50, 204);
+            transition: all 1s linear 1s;
+        }
+
+        .box-blue:hover {
+            transition: all 2s ease-in-out 0s;
+            width: 50px; 
+            height: 50px; 
+        }
+              
+        .box-yellow {
+            background-color: rgb(228, 242, 30);
+            transition: opacity 2s linear 1s;
+        }
+
+        .box-yellow:hover {
+            opacity: 0;
+            transition: opacity 1s linear 0s;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="box-red"></div>
+    <div class="box-green"></div>
+    <div class="box-blue"></div>
+    <div class="box-yellow"></div>
+
+</body>
+
+</html>
