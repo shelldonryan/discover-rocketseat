@@ -12,7 +12,7 @@ function sayMyName(name = ''){
 try {
     sayMyName('')
 } catch(e) {
-    console.log(e)
+    console.log(e.message)
 }
 
 console.log('após o try/catch')

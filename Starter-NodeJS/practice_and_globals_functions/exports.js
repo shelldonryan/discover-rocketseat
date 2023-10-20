@@ -1,1 +1,4 @@
-module.exports = "15/02/2006"
+module.exports = {
+    name: 'Shelldon Ryan',
+    age: 17
+}

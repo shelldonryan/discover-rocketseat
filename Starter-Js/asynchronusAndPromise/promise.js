@@ -24,7 +24,7 @@ promise2
 	.catch(erro => console.log(erro))
 
 
-let aceitar = false
+let aceitar = true
 console.log('pedir uber') 
 const promise3 = new Promise((resolve, reject) => {
 	if (aceitar) {

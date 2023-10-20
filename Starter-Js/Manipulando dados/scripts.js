@@ -27,8 +27,8 @@ console.log(String(numbers).length)
 
 // transformar um número quebrado com 2 casas decimais e trocar por ponto e virgula
 
-let number3 = 150.15022006
-console.log(Number(number3.toFixed(3)))
+let number3 = 150.15122006
+console.log(Number(number3.toFixed(2)))
 
 // transformar letras minusculas em maiusculas. O contrário tbm
 

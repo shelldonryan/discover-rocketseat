@@ -1,7 +1,7 @@
-for(let a = 10; a > 0; a++) {
+for(let a = 0; a < 10; a++) {
     if(a === 7) {
         continue
     }
+    console.log(a)
 }
 
-console.log(a)

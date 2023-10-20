@@ -1,7 +1,7 @@
 //async
-const promessa = new Promise((resolve, reject) => resolve('OK!'))
+const promessa = new Promise((resolve, reject) => resolve('ok'))
 
-async function start1() {
+async function start1(promessa) {
     try {
         const result = await promessa
         console.log(result)
@@ -12,7 +12,7 @@ async function start1() {
     }
 } 
 
-start1()
+start1(promessa)
 
 // async/await with fetch
 
