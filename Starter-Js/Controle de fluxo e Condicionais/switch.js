@@ -17,7 +17,7 @@ switch (name) {
 }
 
 function calculate(number1, operator, number2) {
-    let result = 0;
+    let result;
 
     switch (operator) {
         case '+':

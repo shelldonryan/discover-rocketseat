@@ -74,7 +74,7 @@ techs.pop()
 //remover do começo
 techs.shift()
 //pegar somente alguns elementos do Array
-console.log(techs.slice(0, 2))
+console.log(techs.slice(1, 3))
 //remover um ou mais items em qualquer posição do Array
 techs.splice(1, 1)
 //encontrar a posição de um elemento no Array

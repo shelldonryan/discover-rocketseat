@@ -95,3 +95,23 @@ function booksOfAuthor(author) {
         console.log("Livros do Autor:", books)
     }
 booksOfAuthor('T. Harv Eker')
+
+function booksOfAuthor2(author) {
+    let booksList = [];
+    let position = 0;
+
+    for(let category of booksByCategory) {
+        for(let book of category.books) {
+            if(book.author == author) {
+                booksList.push(book.title)
+            }
+        }
+    }
+    console.log(`Livros do autor ${author}`)
+    for (let book of booksList) {
+        position++
+        console.log(`Livro ${position}: ${book}`)
+    }
+}
+
+booksOfAuthor2('Augusto Cury')

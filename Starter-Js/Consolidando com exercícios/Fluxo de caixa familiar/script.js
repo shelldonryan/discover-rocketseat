@@ -3,11 +3,11 @@ let family = {
     expenses: [500.32, 360.52]
 }
 
-function sum(array) {
-    let total = 0
+function su(array) {
+    let total
 
-    for(let value of array) {
-        total += value
+    for (let valor in array) {
+        total += valor
     }
 
     return total
@@ -21,9 +21,14 @@ function calculateBalance() {
     
     const itsOk = total > 0
 
-    let balanceText = "negativo"
+    let balanceText
+
     if(itsOk) {
         balanceText = "positivo"
+    } else if(total === 0) {
+        balanceText = "zerado"
+    } else {
+        balanceText = "negativo"
     }
 
     console.log(`    Seu saldo está ${balanceText}

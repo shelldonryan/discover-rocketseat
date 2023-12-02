@@ -1,7 +1,7 @@
 //Array
 const animals = [
     'Lion',
-    'Cat,',
+    'Cat',
     'Monkey',
 ]
 

@@ -1,21 +1,15 @@
 function getScore(nota) {
-    let A = nota >= 90 && nota <= 100
-    let B = nota >= 80 && nota <= 89
-    let C = nota >= 70 && nota <= 79
-    let D = nota >= 60 && nota <= 69
-    let F = nota >= 0  && nota <= 59
-
     let notaFinal;
 
-    if(A) {
+    if(nota <= 100 && nota >=90) {
         notaFinal = 'A'
-    } else if(B) {
+    } else if(nota < 90 && nota >= 80) {
         notaFinal = 'B'
-    } else if(C) {
+    } else if(nota < 80 && nota >= 70) {
         notaFinal = 'C'
-    } else if(D) {
+    } else if(nota < 70 && nota >= 60) {
         notaFinal = 'D'
-    } else if(F) {
+    } else if(nota < 60 && nota >= 0) {
         notaFinal = 'F'
     } else {
         notaFinal = 'nota inválida'
